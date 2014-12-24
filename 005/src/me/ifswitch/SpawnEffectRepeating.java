@@ -12,7 +12,7 @@ public class SpawnEffectRepeating implements Runnable {
 	Location emiteLoc = new Location(w, -96,4,-285);
 
 	@Override
-	public void run() {
+	public void run() { 
 			try {
 				ParticleEffect.REDSTONE.display(25, 0, 25, 100, 1024*38, emiteLoc.add(0, 6, 0), 380);
 				emiteLoc.add(0,-6,0);

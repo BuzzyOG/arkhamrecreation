@@ -174,7 +174,7 @@ public class Game extends JavaPlugin implements Listener {
 		herocostuomes.setItem(28, createItem(Material.STAINED_GLASS_PANE, 1, 0, "§c§lWolfs Costume", "§f§7unlock at §b§nbuy.arkham.network"));
 		herocostuomes.setItem(29, createItem(Material.STAINED_GLASS_PANE, 1, 0, "§c§lZombie Costume", "§f§7unlock at §b§nbuy.arkham.network"));
 		herocostuomes.setItem(30, createItem(Material.STAINED_GLASS_PANE, 1, 0, "§c§lZombievillager Costume", "§f§7unlock at §b§nbuy.arkham.network"));
-
+ 
 		heromenu = Bukkit.createInventory(null, 54, "§0Arkham Hero Auras");
 		heromenu.setItem(10, createItem(Material.WATER, 1, 0, "§aWater Drip", "§7Left click to active"));
 		heromenu.setItem(11, createItem(Material.FIREWORK, 1, 0, "§aFirework", "§7Left click to active"));
@@ -182,7 +182,7 @@ public class Game extends JavaPlugin implements Listener {
 		heromenu.setItem(13, createItem(Material.ENDER_CHEST, 1, 0, "§aEnchantment", "§7Left click to active"));
 		heromenu.setItem(14, createItem(Material.ENDER_PEARL, 1, 0, "§aEnder", "§7Left click to active"));
 		heromenu.setItem(15, createItem(Material.TNT, 1, 0, "§aExplosion", "§7Left click to active"));
-		heromenu.setItem(16, createItem(Material.LAVA, 1, 0, "§aLava Drip", "§7Left click to active"));
+		heromenu.setItem(16, createItem(Material.LAVA, 1, 0, "§aLava Drip", "§7Left click to active")); 
 
 		heromenu.setItem(19, createItem(Material.RED_ROSE, 1, 0, "§aLove", "§7Left click to active"));
 		heromenu.setItem(20, createItem(Material.NETHER_STAR, 1, 0, "§aMagic", "§7Left click to active"));

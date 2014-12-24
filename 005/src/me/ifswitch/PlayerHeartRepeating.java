@@ -12,6 +12,6 @@ public class PlayerHeartRepeating implements Runnable {
 		for(Player p : Bukkit.getOnlinePlayers()) {
 			ParticleEffect.HEART.display(0, 0, 0, 10, 10, p.getEyeLocation().add(0, 1, 0), 150);
 		}
-	}
+	} 
 
 }

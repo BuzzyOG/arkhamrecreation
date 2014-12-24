@@ -6,7 +6,7 @@ import me.mgone.bossbarapi.BossbarAPI;
 public class BossBarRepeating implements Runnable {
 	
 	@Override
-	public void run() {
+	public void run() { 
 		try {
 			BossbarAPI.setMessage("§a§l40% §nOFF§6§l 'Christmas' Sale §b§nbuy.arkham.network");
 			Thread.sleep(300);

@@ -31,7 +31,7 @@ import org.bukkit.util.Vector;
  * <p>
  * Special thanks:
  * <ul>
- * <li>@microgeek (original idea, names and packet parameters)
+ * <li>@microgeek (original idea, names and packet parameters) 
  * <li>@ShadyPotato (1.8 names, ids and packet parameters)
  * <li>@RingOfStorms (specific particle direction)
  * </ul>

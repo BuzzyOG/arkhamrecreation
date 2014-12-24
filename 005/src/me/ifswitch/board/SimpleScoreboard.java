@@ -31,7 +31,7 @@ public class SimpleScoreboard {
 		this.teams = Lists.newArrayList();
 	}
 
-	public void blankLine() {
+	public void blankLine() { 
 		add(" ");
 	}
 

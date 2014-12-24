@@ -9,7 +9,7 @@ public class ChangePlayerCount implements Runnable {
 	public int maxInt = 480;
 
 	@Override
-	public void run() {
+	public void run() { 
 		Random rand = new Random();
 		int random_int = rand.nextInt(9 - 0 + 1) + 0;
 

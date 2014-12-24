@@ -25,7 +25,7 @@ import org.bukkit.Bukkit;
  * @author DarkBlade12
  * @version 1.1
  */
-public final class ReflectionUtils {
+public final class ReflectionUtils { 
 	// Prevent accidental construction
 	private ReflectionUtils() {}
 

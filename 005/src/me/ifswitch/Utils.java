@@ -17,7 +17,7 @@ public class Utils {
 			SoundAt("world", p.getLocation(), Sound.LEVEL_UP, 100f, 100f);
 		}
 	}
-	
+	 
 	public static void broadcastMsg(String annString) {
 		Bukkit.broadcastMessage("§0§l[§e§lA§f.§b§lN§0§l]" + " §e§l " + annString);
 	}

@@ -6,7 +6,7 @@ import org.bukkit.Bukkit;
 
 public class AnnouncerRepeating implements Runnable {
 
-	@Override
+	@Override 
 	public void run() {
 		Random rand = new Random();
 		int randomint = rand.nextInt(6 - 0 + 1) + 0;

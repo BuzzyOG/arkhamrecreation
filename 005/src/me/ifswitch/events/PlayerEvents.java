@@ -42,7 +42,7 @@ public class PlayerEvents implements Listener {
 	}
 	
 	@EventHandler
-	public void stopDragonDamage(EntityExplodeEvent event){
+	public void stopDragonDamage(EntityExplodeEvent event){ 
 		event.setCancelled(true);
 	}
 	

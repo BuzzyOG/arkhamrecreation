@@ -13,7 +13,7 @@ public class BuyCMD implements CommandExecutor {
 	public boolean onCommand(CommandSender s, Command cmd, String commandLabel, String[] args) {
 		Player p = (Player)s;
 		p.openInventory(Game.shopmenu);
-		return false;
+		return false; 
 	}
 
 }

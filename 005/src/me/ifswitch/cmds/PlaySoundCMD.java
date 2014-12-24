@@ -31,7 +31,7 @@ public class PlaySoundCMD implements CommandExecutor {
 	            		if(new File(plugin.getDataFolder(), args[0]).exists()) {
 	            			Song song = NBSDecoder.parse(new File(plugin.getDataFolder(), args[0]));
 	    	        		SongPlayer sp = new RadioSongPlayer(song);
-	    	        		sp.setAutoDestroy(true);
+	    	        		sp.setAutoDestroy(true); 
 	    	        		for(Player p : Bukkit.getOnlinePlayers()) {
 	    	        			sp.addPlayer(p);
 	    	        		}

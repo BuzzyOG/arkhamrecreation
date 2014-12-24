@@ -18,7 +18,7 @@ public class DragonspawnCMD implements CommandExecutor {
 		ed.setCustomNameVisible(true);
 		ed.setCustomName("ALLI IS NEGRO");
 		
-		return false;
+		return false; 
 	}
 
 }
