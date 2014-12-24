@@ -1,7 +1,7 @@
 name: ArkhamDotNetwork
 main: me.ifswitch.Game
 version: 1.0
-author: xFinityPro
+author: ifSwitch
 description: For ArkhamDotNetwork usage!
 depend: [ProtocolLib, NoteBlockAPI]
 commands:
