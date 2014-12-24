@@ -1,0 +1,13 @@
+name: ArkhamDotNetwork
+main: me.ifswitch.Game
+version: 1.0
+author: xFinityPro
+description: For ArkhamDotNetwork usage!
+depend: [ProtocolLib, NoteBlockAPI]
+commands:
+     spawndragon:
+        description: UsaGFe!
+     buy:
+        description: UsaGFe!
+     play:
+        description: UsaGFe!

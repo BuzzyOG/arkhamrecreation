@@ -1,0 +1,6 @@
+disable_player_slots: false
+## Enable faking player slots. E.G. (500/5000)
+enable_fake_players: true
+
+faked_max_players: 1000
+faked_online_players: 800
